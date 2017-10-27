@@ -24,7 +24,9 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "test": "./run_tests.sh"
+    "test": "./run_tests.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "spectacular": "./bin/spectacular"
@@ -46,6 +48,8 @@
     "qq": "~0.3.5",
     "uglify-js": "~2.4.0",
     "source-map": "~0.1.27",
-    "jade": "~0.35.0"
-  }
+    "jade": "~0.35.0",
+    "snyk": "^1.46.0"
+  },
+  "snyk": true
 }
