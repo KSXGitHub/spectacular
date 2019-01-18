@@ -40,7 +40,7 @@
     "express": "~3.4.0",
     "stylus": "~0.41.0",
     "jsdom": "~0.8.1",
-    "wintersmith": "~2.0.5",
+    "wintersmith": "~2.5.0",
     "wintersmith-stylus": "~0.4.0",
     "wintersmith-coffee": "~0.2.0",
     "qq": "~0.3.5",
